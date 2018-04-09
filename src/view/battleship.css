@@ -1,0 +1,53 @@
+/**
+Custom CSS class for the BattleShip game view classes.
+This de-clutters the java classes and gives me less of
+a headache when looking at the functionality of the code.
+
+Author: Chris Abajian
+**/
+
+/* Button classes*/
+.button {
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+    -fx-background-color: transparent;
+    -fx-background-radius: 0;
+}
+.button:hover {
+    -fx-background-color: #86ABF9;
+}
+
+/* rectangle that's behind the buttons */
+.rectangle {
+    -fx-fill: #6893EE;
+    -fx-stroke: black;
+}
+
+/* ship classes to color and make then look nice */
+.ship {
+    -fx-background-color: #ccc;
+    -fx-stroke: black;
+}
+.shipEnd_top {
+    -fx-background-color: #ccc;
+    -fx-stroke: black;
+    -fx-background-radius: 20 0 0 20;
+}
+.shipEnd_bot {
+    -fx-background-color: #ccc;
+    -fx-stroke: black;
+    -fx-background-radius: 0 20 20 0;
+}
+.shipEnd_right {
+    -fx-background-color: #ccc;
+    -fx-stroke: black;
+    -fx-background-radius: 0 0 20 20;
+}
+.shipEnd_left {
+    -fx-background-color: #ccc;
+    -fx-stroke: black;
+    -fx-background-radius: 20 20 0 0;
+}
+.destroyed {
+   -fx-background-color: red;
+}
